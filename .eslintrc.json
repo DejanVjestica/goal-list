@@ -20,8 +20,10 @@
 	"plugins": ["react", "@typescript-eslint"],
 	"rules": {
 		"quotes": [2, "single"],
+		"space-before-function-paren": ["error", "never"],
 		"semi": ["error", "never"],
 		"no-tabs": ["error", { "allowIndentationTabs": true }],
+		"no-unused-expressions": "off",
 		"react/jsx-filename-extension": [
 			1,
 			{ "extensions": [".ts", ".js", ".tsx", ".jsx"] }
